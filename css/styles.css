@@ -1,0 +1,82 @@
+
+body{
+    background-image:url("../images/background.jpg");
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+
+body p{
+    display: flex;
+    justify-content: center;
+    color:white;
+    font-size: 2rem;
+    font-family: monospace;
+}
+header #header{
+    font-size: 3.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    color:white;
+    display:flex;
+    justify-content: center;
+    background-color: grey;
+    text-shadow: 1px 1px 1px grey;
+    border: 2px solid black;
+    font-family: fantasy;
+    text-shadow: 2px 2px 2px black;
+    border-radius:10px
+}
+header #header:hover{
+    background-color: gold;
+    color:black;
+    cursor:pointer;
+    border:2px solid black;
+    
+}
+#message-el{
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+
+#start-btn{
+    color:white;
+    background-color:black;
+    border:none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#new-btn{
+    color:white;
+    background-color:black;
+    border:none;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 2rem;
+}
+
+#new-btn:hover{
+    background-color: gold;
+    border:none;
+    color:black
+}
+
+#start-btn:hover{
+    background-color: gold;
+    border:none;
+    color:black
+}
+
+.container{
+    text-align: center;
+}
